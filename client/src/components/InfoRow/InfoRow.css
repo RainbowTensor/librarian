@@ -1,0 +1,28 @@
+.infoRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 22%;
+    color: #303030;
+    font-weight: 500;
+}
+
+.data {
+    font-weight: 500;
+}
+
+.booksList {
+    margin-right: -10%;
+}
+
+.booksList h6 {
+    width: 6vw;
+}
+
+.bookRow {
+    display: flex;
+    align-items: center;
+}
+.deleteBttn {
+    height: min-content;
+}

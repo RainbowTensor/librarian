@@ -1,0 +1,5 @@
+.addRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+}

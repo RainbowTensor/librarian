@@ -1,0 +1,38 @@
+.addWindowWrapper {
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    backdrop-filter: blur(5px);
+}
+
+.addWindow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #8b6d6d;
+    width: 30vw;
+    height: min-content;
+    padding-bottom: 2%;
+    margin-top: 7%;
+    border-radius: 20px;
+}
+
+.addWindow button {
+    background: none;
+    border-style: solid;
+    border-color: #855151;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #262626;
+}
+
+.addWindow button:hover {
+    background: #8f6565;
+}

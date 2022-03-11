@@ -1,0 +1,68 @@
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+
+.cardWrapper button {
+    background: none;
+    border-style: solid;
+    border-color: #855151;
+    border-radius: 10px;
+    margin: 2%;
+    font-weight: 600;
+    font-size: 11px;
+    color: #262626;
+}
+
+.cardWrapper button:hover {
+    background: #8f6565;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c3b956;
+    border-radius: 20px;
+    margin-top: 2%;
+    height: min-content;
+    padding: 3%;
+    color: #303030;
+    font-weight: 500;
+}
+
+#disabled.title {
+    background: #878787;
+    cursor: not-allowed;
+}
+
+.info {
+    display: none;
+    height: min-content;
+    background: #9f7979;
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 2%;
+}
+
+.info h5 {
+    margin: 3% 0%;
+}
+
+.cardWrapper:hover .info {
+    display: block;
+    box-shadow: 0 6px 9px 0px #00000085;
+}
+
+.cardWrapper:hover #disabled.info {
+    display: none;
+}
+
+.cardWrapper:hover .title {
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 6px 9px 0px #00000085;
+}
+
+.cardWrapper:hover #disabled.title {
+    border-radius: 20px;
+}
